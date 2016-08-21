@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/dashboard"
+    android:title="@string/dashboard"
+    android:checked="true"></item>
+
+    <item android:id="@+id/create_event"
+        android:title="@string/create_event"/>
+
+    <item android:id="@+id/my_events"
+        android:title="@string/my_events"></item>
+
+    <item android:id="@+id/invitations"
+        android:title="@string/invitations"></item>
+
+    <item android:id="@+id/past_events"
+        android:title="@string/past_events"></item>
+
+    <item android:id="@+id/logout"
+        android:title="@string/logout"></item>
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_action_share"
+        android:title="share"/>
+
+    <item
+        android:id="@+id/download"
+        android:icon="@drawable/delete"
+        android:title="download"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/download"
+        android:title="delete"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/invite_friends"
+        android:icon="@drawable/download"
+        android:title="invite friends"/>
+
+
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/ic_action_camera"
+        android:title="camera"
+        appcompat:showAsAction="always"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/attach"
+        android:icon="@drawable/ic_action_attach"
+        android:title="attach"
+        appcompat:showAsAction="always"
+        android:visible="false"/>
+
+</menu>
